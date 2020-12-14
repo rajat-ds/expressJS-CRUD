@@ -2,10 +2,15 @@ const express = require("express");
 const path = require("path");
 const logger = require("./middleware/logger");
 const app = express();
+const cors = require('cors')
 const PORT = process.env.PORT || 5000;
 
 //Init Middleware
 //app.use(logger);
+
+//cors policy
+app.use(cors())
+
 
 //Body Parser Middleware
 app.use(express.json());

@@ -1,22 +1,49 @@
 const members = [
     {
-        id:1,
-        name:'Rajat Kumar',
-        email: 'rajat.technocrat01@gmail.com',
-        status: 'active'
-    },
-    {
-        id:2,
-        name:'Ram ',
-        email: 'rajat.technocrat01@gmail.com',
-        status: 'active'
-    },
-    {
-        id:1,
-        name:'Ramesh',
-        email: 'rajat.technocrat01@gmail.com',
-        status: 'active'
-    }
+        "balance": "$3,946.45",
+        "picture": "http://placehold.it/32x32",
+        "age": 21,
+        "name": "Rajat Kumar",
+        "gender": "male",
+        "company": "Facebook",
+        "email": "rajat.technocrat01@gmail.com"
+      },
+      {
+        "balance": "$2,499.49",
+        "picture": "http://placehold.it/32x32",
+        "age": 31,
+        "name": "Shipra Tiwari",
+        "gender": "female",
+        "company": "Raj System",
+        "email": "shipra@gmail.com"
+      },
+      {
+        "balance": "$2,820.18",
+        "picture": "http://placehold.it/32x32",
+        "age": 34,
+        "name": "Atul Pandey",
+        "gender": "male",
+        "company": "TCS",
+        "email": "atul@tcs.com"
+      },
+      {
+        "balance": "$3,277.32",
+        "picture": "http://placehold.it/32x32",
+        "age": 30,
+        "name": "Anwar",
+        "gender": "male",
+        "company": "Google",
+        "email": "anwar@google.com"
+      },
+      {
+        "balance": "$1,972.47",
+        "picture": "http://placehold.it/32x32",
+        "age": 30,
+        "name": "Pramod",
+        "gender": "male",
+        "company": "ULTRIMAX",
+        "email": "pramod@gmail.com"
+      }
 ]
 
 module.exports = members;
